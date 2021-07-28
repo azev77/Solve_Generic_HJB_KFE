@@ -1,6 +1,6 @@
 # generic solve_hjb( ) Implicit method. 
 # TODO: ns states/nc controls 
-# TODO: add uncertainty, nx shocks...
+# TODO: add uncertainty, nx shocks... Diffusions/Poisson/Jump-Diffusion
 
 using LinearAlgebra, SparseArrays
 
