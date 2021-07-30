@@ -1,7 +1,7 @@
 # Solve_Generic_HJB_KFE
 Julia code to solve generic HJBs &amp; KFEs
 
-Current code: deterministic, one state, one control, infinite horizon, time/state separable
+Current code: deterministic, one state, one control, infinite horizon, time/state separable      
 Currently, the return function only depends on the control, not the state (as in durable goods etc)
 
 Extensions:     
