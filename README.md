@@ -4,7 +4,7 @@ Julia code to solve generic HJBs &amp; KFEs
 Current code: deterministic, one state, one control, infinite horizon, time/state separable      
 Currently, the return function only depends on the control, not the state (as in durable goods etc)     
 Challenge: for true generality, need to solve non-linear system of `n_c` focs, to get `n_c` policy functions 
-(but the number of iterations w/ implicit is usually small so perhaps it's not too bad???)
+(but the number of iterations w/ the implicit scheme is usually small so perhaps it's not too bad???)
 
 Extensions:     
 endog := endogenous & exog := exogenous    
