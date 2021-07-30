@@ -215,7 +215,8 @@ end
 
 ##################################
 # DO IT. 
-mod = NGM()
+mod = NGM() # mod.s_min =0.0048
+mod = NGM(s_max=3.0) 
 
 # NGM Closed form. Need: ρ = δ*(α*σ - 1)
 mod = NGM(σ= 4.0, δ = 0.05, A = 1.0, α= 0.3, ρ = 0.05*(0.3*4 - 1))
@@ -270,12 +271,12 @@ plot!([0.0],  seriestype = :hline, lab="", color="grey", l=:dash)
 using Interpolations
 ĉ = LinearInterpolation(mod.s, c_Upwind[:], extrapolation_bc = Line())
 
-Δt = 0.001; 
+# NGM: converges quickly 
 Δt = 0.01;
 T_sim = 200; 
-T_sim = 500;
-T_sim = 1_000;
 
+# CS: converges slowly
+Δt = 0.01;
 T_sim = 3_500;
 
 t_sim = 0.0:Δt:T_sim
