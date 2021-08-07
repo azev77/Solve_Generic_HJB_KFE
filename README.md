@@ -33,3 +33,6 @@ endog := endogenous & exog := exogenous
 
 Optimal stopping time (HJBVI, LCP)
 - Indivisible durable: saving to buy a car, [car.pdf](https://benjaminmoll.com/wp-content/uploads/2020/06/car.pdf), [car.m](https://benjaminmoll.com/wp-content/uploads/2020/06/car.m)
+
+
+Q: what about GE models w/ non-constant interest rates & paths of prices?
