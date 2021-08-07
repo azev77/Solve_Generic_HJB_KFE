@@ -10,7 +10,7 @@ Current examples:
 - NGM: 1-state (k), 1-choice (c), return u(c), compare w/ closed form
 - NGM (Convex-Concave tech): 1-state (k), 1-choice (c), return u(c), compare w/ Hamiltonian (multiple SS)
 - CS: 1-state (a), 1-choice (c), return u(c), compare w/ closed form {To Do: extend to finite horizon}
-- Investment: 1-state (k), 1-choice (i), return profit(k,i) {Not working well}
+- Investment: 1-state (k), 1-choice (i), return profit(k,i) {**Not working well**}
 - Housing:
 - Labor: non-stochastic 
 
