@@ -6,6 +6,14 @@ Currently, the return function only depends on the control, not the state (as in
 Challenge: for true generality, need to solve non-linear system of `n_c` focs, to get `n_c` policy functions 
 (but the number of iterations w/ the implicit scheme is usually small so perhaps it's not too bad???)
 
+Current examples:
+- NGM: 1-state (k), 1-choice (c), return u(c), compare w/ closed form
+- NGM (Convex-Concave tech): 1-state (k), 1-choice (c), return u(c), compare w/ Hamiltonian (multiple SS)
+- CS: 1-state (a), 1-choice (c), return u(c), compare w/ closed form {To Do: extend to finite horizon}
+- Investment: 1-state (k), 1-choice (i), return profit(k,i) {Not working well}
+- Housing:
+- Labor: non-stochastic 
+
 Extensions:     
 endog := endogenous & exog := exogenous    
 - Multiple states (n_s): 
