@@ -14,6 +14,10 @@ Current examples:
 - Housing:
 - Labor: non-stochastic 
 
+Next: human capital/deterministic labor supply/deterministic Lifecycle          
+Next: combine 2-state Poisson & Diffusion into a generic solver 
+
+
 Extensions:     
 endog := endogenous & exog := exogenous    
 - Multiple states (n_s): 
