@@ -30,4 +30,6 @@ endog := endogenous & exog := exogenous
   - (a,h): wealth `a` endog, human capital `h` endog, choices (c,s), [human_capital.pdf](https://benjaminmoll.com/wp-content/uploads/2020/02/human_capital.pdf),  [human_capital.m](https://benjaminmoll.com/wp-content/uploads/2020/03/human_capital.m)
   - (a,b,z): liquid assets `a` endog, illiquid assets `b` endog, income `z` exog Poiss, choices (c,d), [two_asset_kinked.pdf](https://benjaminmoll.com/wp-content/uploads/2020/06/two_asset_kinked.pdf),  [two_asset_kinked.m](https://benjaminmoll.com/wp-content/uploads/2020/06/two_asset_kinked.m)
 - Stochastic: see above
+
+Optimal stopping time (HJBVI, LCP)
 - Indivisible durable: saving to buy a car, [car.pdf](https://benjaminmoll.com/wp-content/uploads/2020/06/car.pdf), [car.m](https://benjaminmoll.com/wp-content/uploads/2020/06/car.m)
